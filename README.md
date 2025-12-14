@@ -1,2 +1,4 @@
-# secure-code-generation-with-multi-agent-collaboration
-Re-evaluation of INDICT Using SALLM and Introduction of Methodological Enhancements
+# Secure Code Generation with multi-agent Collaboration
+## : Re-evaluation of INDICT Using SALLM and Introduction of Methodological Enhancements
+
+This work revisits the reliability of multi-agent code generation systems by examining the security limitations of existing evaluation methodologies. A representative framework, INDICT, is re- evaluated under a systematic security evaluation framework (SALLM) that combines static analysis with dynamic testing. The analysis reveals a substantial gap between previously reported ‘safety/helpfulness’ metrics and SALLM’s evaluation results. To mitigate these issues, this work augments INDICT with a step- based planning layer and step-level security notes, enforced through redesigned actor and critic prompts. Experimental results show that these refinements lead to consistent gains in both functional correctness and security robustness across diverse coding tasks.
